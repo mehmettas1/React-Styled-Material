@@ -1,7 +1,7 @@
 import Button from "./styles/Button.styled";
 import Container from "./styles/Container.styled";
 import StyledHeader, { Logo, Nav } from "./styles/Header.style";
-
+import { Image } from "./Styles/Header.style";
 const Header = () => {
     return (
         <StyledHeader>
@@ -21,6 +21,8 @@ const Header = () => {
             class online with other trainees and learn coding skills with a
             highly-skilled instructor.
           </p>
+          <Button bg="#a42440" >Start Your New Carier</Button>
+          <Image src = "./images/hero.jpg"></Image>
         </div>
         </Container>
         </StyledHeader>
