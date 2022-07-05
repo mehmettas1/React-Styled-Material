@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import {ThemeProvider} from 'styled-components';
+import { GlobalStlyes } from "./components/styles/global";
 
 
 const theme ={
@@ -18,6 +19,7 @@ const theme ={
 const App = () => {
   return (
   <ThemeProvider theme={theme}>
+    <GlobalStlyes/>
     <Header/>
   </ThemeProvider>
   );
